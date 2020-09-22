@@ -15,7 +15,7 @@ import org.junit.jupiter.api.TestMethodOrder;
 //@Disabled("All test in this class will be skipped")
 @TestMethodOrder(OrderAnnotation.class) // il faut minimum la version 5.4 pour gérer l'ordre
 @SpringBootTest
-public class DemoApplicationTests {
+class DemoApplicationTests {
 
 	 @BeforeAll
     static void setupAll() {
